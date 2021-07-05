@@ -227,11 +227,6 @@ p {
 	padding: 0;
 }
 
-/*--- Image and Text Top-Alignment ---*/
-.top-align {
-	margin-top: -40px;
-}
-
 .more-link-wrap {
 	margin-bottom: 0;
 }
@@ -2803,7 +2798,6 @@ p.entry-meta {
 	.genesis-responsive-menu .toggle-header-search {
 		display: none;
 	}
-
 
 }
 
