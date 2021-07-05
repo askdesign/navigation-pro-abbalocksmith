@@ -2428,7 +2428,7 @@ p.entry-meta {
 	backface-visibility: hidden;
 	bottom: 0;
 	font-size: 13px;
-	line-height: 1;
+	line-height: 1.2;
 	padding-bottom: 40px;
 	padding-top: 40px;
 	position: -webkit-sticky;
@@ -2804,10 +2804,40 @@ p.entry-meta {
 		display: none;
 	}
 
+/* --- Secondary Menu --- */
+	.nav-secondary {
+    	max-width: 420px;
+	}
+
+	.nav-secondary li:not(:first-child) {
+		border-left: 0px solid rgba(230, 230, 230, 0.3);
+	}
+
+	.nav-secondary .genesis-nav-menu li {
+		padding-left: 0;
+	}
+
+	.nav-secondary .genesis-nav-menu a {
+		margin: 0 10px 0 0;
+	}
+
+
 
 }
 
 @media only screen and (max-width: 800px) {
+
+	body {
+		font-size: 16px;
+	}
+
+	p {
+		margin: 0 0 32px;
+	}
+
+	.home-blockadjustment {
+		margin-top: -10% !important;
+	}
 
 	.before-footer-cta,
 	.site-footer {
