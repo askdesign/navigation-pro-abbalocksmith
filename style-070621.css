@@ -353,6 +353,7 @@ h1 {
 h2 {
 	font-size: 44px;
 	letter-spacing: -0.5px;
+	line-height: 1;
 }
 
 h3 {
@@ -2951,36 +2952,6 @@ p.entry-meta {
 		margin-top: 40px;
 	}
 
-	.content .entry-header {
-		padding: 2em 2em 0;
-	}
-
-	.content .entry-content {
-		padding: 0 2em 2em;
-	}
-
-	.sidebar .widget {
-		padding: 2em;
-	}
-
-	.genesis-title-hidden:not(.unboxed) .content > .entry:not(.type-post) {
-		padding-top: 2em;
-	}
-
-	.after-entry,
-	.author-box,
-	.comment-list article,
-	.entry-footer,
-	.sidebar .widget {
-		padding: 2em;
-	}
-
-	.post-image-alignleft.post-image-featured-blog .more-link-wrap,
-	.post-image-alignleft.post-image-featured-blog .more-link-wrap {
-		margin-left: -2em;
-		margin-right: -2em;
-	}
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -2991,7 +2962,7 @@ p.entry-meta {
 
 	.title-area,
 	.wp-custom-logo .title-area {
-		max-width: 300px;
+		max-width: 220px;
 	}
 
 	.menu-toggle {
@@ -3019,6 +2990,32 @@ p.entry-meta {
 	.comment-respond,
 	.unboxed.full-width-content.genesis-singular-image-visible .content > .entry {
 		margin-top: 80px;
+	}
+
+	.content .entry-header {
+		padding: 2em 2em 0;
+	}
+
+	.content .entry-content {
+		padding: 0 2em 2em;
+	}
+
+	.genesis-title-hidden:not(.unboxed) .content > .entry:not(.type-post) {
+		padding-top: 2em;
+	}
+
+	.after-entry,
+	.author-box,
+	.comment-list article,
+	.entry-footer,
+	.sidebar .widget {
+		padding: 2em;
+	}
+
+	.post-image-alignleft.post-image-featured-blog .more-link-wrap,
+	.post-image-alignleft.post-image-featured-blog .more-link-wrap {
+		margin-left: -2em;
+		margin-right: -2em;
 	}
 
 }
